@@ -4,7 +4,6 @@ body {
     flex-direction: column;
     min-height: 100vh;
     margin: 0% 8%;
-    /* Supprime la marge par défaut du body */
 }
 
 main {
@@ -18,23 +17,21 @@ section {
 
 .container {
     display: flex;
+    flex-wrap: wrap;
     max-width: 100%;
-    /* Adjust the max-width as needed */
     margin: auto;
 }
 
 .image-container {
     flex: 1;
-    display: flex;
+    max-width: 100%;
+    /* Ajuste la largeur maximale du conteneur de l'image */
 }
-
 
 img {
     max-width: 100%;
-    min-width: 10%;
     height: auto;
 }
-
 
 #intro {
     flex: 1;
@@ -45,7 +42,7 @@ img {
 }
 
 .intro2 {
-    font-size: 1vw;
+    font-size: 0.35em;
     max-width: 80%;
     padding-top: 2%;
 }
@@ -60,11 +57,25 @@ img {
     font-weight: bold;
 }
 
+@media (max-width: 768px) {
+    .image-container {
+        order: 2;
+        max-width: 100%;
+        /* Ajuste la largeur maximale du conteneur de l'image à 100% */
+    }
+
+    img {
+        max-width: 100%;
+        /* Ajuste la largeur maximale de l'image à 100% */
+    }
+
+    #intro {
+        min-width: 100%;
+    }
+}
 
 .separator {
     border: 1px solid #eeeeee;
-    /* Gray border color */
     width: 100%;
     margin: 1% auto;
-    /* Center the separator with auto left and right margins */
 }
