@@ -6,13 +6,10 @@ body {
     margin: 0% 8%;
 }
 
-main {
-    padding: 20px;
-}
 
 section {
-    margin: 20px 0;
-    padding: 20px;
+    padding-top: 3%;
+    padding-bottom: 3%;
 }
 
 .container {
