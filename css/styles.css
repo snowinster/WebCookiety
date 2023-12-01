@@ -28,12 +28,13 @@ section {
     display: flex;
 }
 
+
 img {
     max-width: 100%;
     min-width: 10%;
-    /* Set a fixed minimum width in pixels */
     height: auto;
 }
+
 
 #intro {
     flex: 1;

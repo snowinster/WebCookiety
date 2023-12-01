@@ -10,7 +10,10 @@ header {
 nav {
     display: flex;
     align-items: center;
+    max-width: 100%;
+    white-space: nowrap;
 }
+
 
 
 nav ul {
@@ -19,7 +22,9 @@ nav ul {
 }
 
 nav li {
-    margin-right: 20px;
+    margin-right: 1em;
+    min-width: 0.5em;
+    flex: 1;
 }
 
 nav a {
@@ -34,13 +39,13 @@ nav a:hover {
 
 
 .logo-container {
-    margin-right: 10px;
-    /* Marge à droite pour l'espace entre l'image et la liste */
+    margin-right: 1em;
 }
 
 nav img {
     width: 120px;
     /* Ajustez la largeur selon vos besoins */
     height: auto;
+    min-width: 40%;
     /* Pour maintenir les proportions de l'image */
 }
