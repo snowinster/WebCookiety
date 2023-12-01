@@ -1,0 +1,47 @@
+header {
+    background-color: #ffffff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
+}
+
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333333;
+}
+
+nav a:hover {
+    color: #04b932;
+    /* Couleur du texte au survol */
+}
+
+
+.logo-container {
+    margin-right: 10px;
+    /* Marge à droite pour l'espace entre l'image et la liste */
+}
+
+nav img {
+    width: 120px;
+    /* Ajustez la largeur selon vos besoins */
+    height: auto;
+    /* Pour maintenir les proportions de l'image */
+}
