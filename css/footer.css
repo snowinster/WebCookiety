@@ -36,13 +36,17 @@ footer .right {
 @media only screen and (max-width: 768px) {
     #appli {
         font-size: 0.8em;
-        /* Ajustez la taille pour les écrans plus petits */
         margin: 2% 0;
-        /* Ajustez la marge pour les écrans plus petits */
     }
 
     #copyright {
         font-size: 0.7em;
-        /* Ajustez la taille pour les écrans plus petits */
+    }
+
+    /* Ajustement du texte à droite pour les écrans plus petits */
+    footer .right {
+        text-align: left;
+        margin-top: 5px;
+        /* Ajoutez un espacement en haut pour séparer du texte de gauche */
     }
 }
