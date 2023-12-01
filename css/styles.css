@@ -61,18 +61,30 @@ img {
     .image-container {
         order: 2;
         max-width: 100%;
-        /* Ajuste la largeur maximale du conteneur de l'image à 100% */
+        text-align: center;
     }
 
     img {
-        max-width: 100%;
-        /* Ajuste la largeur maximale de l'image à 100% */
+        max-width: 50%;
+        margin: 10% auto;
+        display: block;
     }
 
     #intro {
         min-width: 100%;
+        text-align: center;
+        font-size: 2.5em;
+        /* Ajuste la taille minimale de la police pour l'écran plus petit */
+    }
+
+    .intro2 {
+        text-align: left;
+        margin: 0;
+        max-width: 100%;
     }
 }
+
+
 
 .separator {
     border: 1px solid #eeeeee;
