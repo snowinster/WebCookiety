@@ -44,7 +44,7 @@ footer .right {
     }
 
     /* Ajustement du texte à droite pour les écrans plus petits */
-    footer .right {
+    #right {
         text-align: left;
         margin-top: 5px;
         /* Ajoutez un espacement en haut pour séparer du texte de gauche */
