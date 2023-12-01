@@ -44,9 +44,10 @@ footer .right {
     }
 
     /* Ajustement du texte à droite pour les écrans plus petits */
-    #right {
+    footer .right {
         text-align: left;
-        margin-top: 5px;
+        margin-top: 7%;
+        font-size: 0.7em;
         /* Ajoutez un espacement en haut pour séparer du texte de gauche */
     }
 }
