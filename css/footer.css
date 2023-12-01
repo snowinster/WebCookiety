@@ -4,7 +4,7 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 100px 20px;
+    padding: 5% 1%;
 }
 
 footer .left {
@@ -17,18 +17,18 @@ footer .right {
 
 
 #appli {
-    font-size: 16px;
+    font-size: 1em;
     color: #707070;
-    margin: 20px 0 10px 0;
+    margin: 4% 0 2% 0;
     /* Marge supérieure de 20px, marge inférieure de 10px, et aucune marge sur les côtés */
 }
 
 
 #copyright {
-    font-size: 12px;
+    font-size: 0.8em;
     /* Ajustez la taille de la police selon vos préférences */
     color: #999;
     /* Couleur du texte, vous pouvez ajuster selon vos préférences */
-    margin: 10px 0;
+    margin: 1% 0;
     /* Ajoute une marge en haut et en bas pour l'espacement */
 }
