@@ -1,3 +1,4 @@
+/* Style du header */
 header {
     background-color: #ffffff;
     padding: 1%;
@@ -6,7 +7,7 @@ header {
     align-items: center;
 }
 
-
+/* Style de la navigation */
 nav {
     display: flex;
     align-items: center;
@@ -14,38 +15,69 @@ nav {
     white-space: nowrap;
 }
 
-
-
+/* Style de la liste de navigation */
 nav ul {
     list-style-type: none;
     display: flex;
+    margin: 0;
+    /* Supprime la marge par défaut */
+    padding: 0;
+    /* Supprime le remplissage par défaut */
 }
 
+/* Style des éléments de la liste de navigation */
 nav li {
     margin-right: 1em;
     min-width: 0.5em;
     flex: 1;
 }
 
+/* Style des liens de navigation */
 nav a {
     text-decoration: none;
     color: #333333;
 }
 
+/* Style des liens de navigation au survol */
 nav a:hover {
     color: #04b932;
-    /* Couleur du texte au survol */
 }
 
-
+/* Style du conteneur du logo */
 .logo-container {
     margin-right: 1em;
 }
 
+/* Style de l'image du logo */
 nav img {
     width: 5em;
     /* Ajustez la largeur selon vos besoins */
     height: auto;
     min-width: 100%;
     /* Pour maintenir les proportions de l'image */
+}
+
+/* Media query pour les écrans plus petits */
+@media only screen and (max-width: 768px) {
+    header {
+        padding: 5px;
+    }
+
+    nav {
+        flex-direction: row;
+        /* Changer la direction de la flexbox à la ligne */
+        justify-content: flex-start;
+        /* Aligner les éléments à gauche */
+    }
+
+    nav ul {
+        margin-top: 10px;
+    }
+
+    nav li {
+        margin-right: 10px;
+        /* Ajouter une marge entre les éléments de la liste */
+        margin-bottom: 0;
+        /* Supprimer la marge au bas des éléments de la liste */
+    }
 }

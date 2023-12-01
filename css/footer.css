@@ -1,3 +1,4 @@
+/* Style du footer */
 footer {
     margin-top: auto;
     width: 100%;
@@ -7,28 +8,41 @@ footer {
     padding: 5% 1%;
 }
 
+/* Style de la partie gauche du footer */
 footer .left {
     text-align: left;
 }
 
+/* Style de la partie droite du footer */
 footer .right {
     text-align: right;
 }
 
-
+/* Style du texte de l'application mobile */
 #appli {
     font-size: 1em;
     color: #707070;
     margin: 4% 0 2% 0;
-    /* Marge supérieure de 20px, marge inférieure de 10px, et aucune marge sur les côtés */
 }
 
-
+/* Style du texte du copyright */
 #copyright {
     font-size: 0.8em;
-    /* Ajustez la taille de la police selon vos préférences */
     color: #999;
-    /* Couleur du texte, vous pouvez ajuster selon vos préférences */
     margin: 1% 0;
-    /* Ajoute une marge en haut et en bas pour l'espacement */
+}
+
+/* Media query pour les écrans plus petits */
+@media only screen and (max-width: 768px) {
+    #appli {
+        font-size: 0.8em;
+        /* Ajustez la taille pour les écrans plus petits */
+        margin: 2% 0;
+        /* Ajustez la marge pour les écrans plus petits */
+    }
+
+    #copyright {
+        font-size: 0.7em;
+        /* Ajustez la taille pour les écrans plus petits */
+    }
 }
