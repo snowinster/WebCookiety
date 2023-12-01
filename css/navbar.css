@@ -43,9 +43,9 @@ nav a:hover {
 }
 
 nav img {
-    width: 120px;
+    width: 5em;
     /* Ajustez la largeur selon vos besoins */
     height: auto;
-    min-width: 40%;
+    min-width: 100%;
     /* Pour maintenir les proportions de l'image */
 }
