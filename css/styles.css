@@ -12,23 +12,6 @@ section {
     padding-bottom: 3%;
 }
 
-.container {
-    display: flex;
-    flex-wrap: wrap;
-    max-width: 100%;
-    margin: auto;
-}
-
-.image-container {
-    flex: 1;
-    max-width: 100%;
-    /* Ajuste la largeur maximale du conteneur de l'image */
-}
-
-img {
-    max-width: 100%;
-    height: auto;
-}
 
 #intro {
     flex: 1;
@@ -55,35 +38,6 @@ img {
 }
 
 
-@media (max-width: 768px) {
-    .container {
-        flex-direction: column-reverse;
-        /* Inverse la direction de la colonne (image au-dessus du texte) */
-    }
-
-    #image-container {
-        order: 1;
-        max-width: 50%;
-        margin: 1% auto;
-        display: block;
-    }
-
-    #intro {
-        order: 2;
-        text-align: center;
-        padding: 10%;
-    }
-
-    .intro2 {
-        text-align: left;
-        margin: 0;
-        max-width: 100%;
-    }
-}
-
-
-
-
 #liste1 {
     font-size: 1.5em;
 }
@@ -101,12 +55,14 @@ img {
 
 
 /* Style pour le conteneur principal utilisant Flexbox */
-.container2 {
+.container2,
+.container {
     display: flex;
 }
 
 /* Style pour le conteneur de l'image */
-.image-container2 {
+.image-container2,
+.image-container {
     flex: 3;
 }
 
@@ -114,11 +70,11 @@ img {
 .image2 {
     max-width: 100%;
     height: auto;
-
 }
 
 /* Style pour le conteneur du texte */
-.text-container2 {
+.text-container2,
+.text-container {
     flex: 7;
     /* 70% de l'espace disponible */
     display: flex;
@@ -159,6 +115,34 @@ h2 {
         padding: 10%;
         /* Utilise 100% de l'espace disponible */
     }
+
 }
+
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        /* Utilise la direction de la colonne normale pour les écrans inférieurs à 768px */
+    }
+
+    .image-container {
+        flex: 1;
+        max-width: 50%;
+        align-self: center;
+
+    }
+
+    .text-container {
+        flex: 1;
+        align-self: center;
+        padding: 10%;
+        /* Utilise 100% de l'espace disponible */
+    }
+
+    .intro2 {
+        max-width: 100%;
+    }
+}
+
 
 /* Ajoute d'autres styles au besoin */
