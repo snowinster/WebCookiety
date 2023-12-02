@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Arial', sans-serif;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
@@ -41,7 +41,7 @@ img {
 .intro2 {
     font-size: 0.35em;
     max-width: 80%;
-    padding-top: 2%;
+    padding-top: 3%;
 }
 
 .black-text {
@@ -50,28 +50,28 @@ img {
 }
 
 .green-text {
-    color: rgb(0, 175, 0);
+    color: #4AE188;
     font-weight: bold;
 }
 
+
 @media (max-width: 768px) {
-    .image-container {
-        order: 2;
-        max-width: 100%;
-        text-align: center;
+    .container {
+        flex-direction: column-reverse;
+        /* Inverse la direction de la colonne (image au-dessus du texte) */
     }
 
-    img {
+    #image-container {
+        order: 1;
         max-width: 50%;
-        margin: 10% auto;
+        margin: 1% auto;
         display: block;
     }
 
     #intro {
-        min-width: 100%;
+        order: 2;
         text-align: center;
-        font-size: 2.5em;
-        /* Ajuste la taille minimale de la police pour l'écran plus petit */
+        padding: 10%;
     }
 
     .intro2 {
@@ -83,8 +83,82 @@ img {
 
 
 
+
+#liste1 {
+    font-size: 1.5em;
+}
+
+#espacement {
+    padding: 2%;
+}
+
 .separator {
     border: 1px solid #eeeeee;
     width: 100%;
     margin: 1% auto;
 }
+
+
+
+/* Style pour le conteneur principal utilisant Flexbox */
+.container2 {
+    display: flex;
+}
+
+/* Style pour le conteneur de l'image */
+.image-container2 {
+    flex: 3;
+}
+
+/* Style pour l'image */
+.image2 {
+    max-width: 100%;
+    height: auto;
+
+}
+
+/* Style pour le conteneur du texte */
+.text-container2 {
+    flex: 7;
+    /* 70% de l'espace disponible */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* Centre le contenu verticalement */
+    align-items: center;
+    /* Centre le contenu horizontalement */
+    text-align: justify;
+}
+
+h2 {
+    font-size: 2vw;
+}
+
+.Creation {
+    padding-top: 2%;
+    font-size: 1.5vw;
+}
+
+
+@media (max-width: 768px) {
+    .container2 {
+        flex-direction: column-reverse;
+        /* Inverse la direction de la colonne (image au-dessus du texte) */
+    }
+
+    .image-container2 {
+        flex: 1;
+        max-width: 50%;
+        align-self: center;
+
+    }
+
+    .text-container2 {
+        flex: 1;
+        align-self: center;
+        padding: 10%;
+        /* Utilise 100% de l'espace disponible */
+    }
+}
+
+/* Ajoute d'autres styles au besoin */

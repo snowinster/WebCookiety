@@ -13,6 +13,8 @@ nav {
     align-items: center;
     max-width: 100%;
     white-space: nowrap;
+    padding-top: 2%;
+    padding-bottom: 2%;
 }
 
 /* Style de la liste de navigation */
@@ -40,7 +42,7 @@ nav a {
 
 /* Style des liens de navigation au survol */
 nav a:hover {
-    color: #04b932;
+    color: #4AE188;
 }
 
 /* Style du conteneur du logo */
