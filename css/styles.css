@@ -104,7 +104,7 @@ h2 {
 
     .image-container2 {
         flex: 1;
-        max-width: 40%;
+        max-width: 50%;
         align-self: center;
 
     }
@@ -135,7 +135,7 @@ h2 {
 
     .image-container {
         flex: 1;
-        max-width: 40%;
+        max-width: 50%;
         align-self: center;
 
     }
