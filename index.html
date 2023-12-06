@@ -8,10 +8,12 @@
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/navbar.css">
     <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/caroussel.css">
+
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
 
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap">
-
 
     <title>Cookiety</title>
 </head>
@@ -85,13 +87,15 @@
                 <h2>🍲 Cookiety - Votre Compagnon Culinaire Intelligent ! 🚀</h2>
 
                 <div class="Creation">Découvrez une nouvelle ère de cuisine avec Cookiety, l'application basée sur l'IA
-                    qui personnalise
-                    vos
-                    recettes, simplifie la préparation, et vous connecte à une communauté passionnée. Rejoignez-nous
-                    pour
-                    des découvertes culinaires excitantes et une cuisine sans tracas. Téléchargez maintenant et
-                    transformez
-                    chaque repas en une expérience inoubliable ! 🌟👩‍🍳📱
+                    qui personnalise vosrecettes, simplifie la préparation, et vous connecte à une communauté
+                    passionnée. </div>
+
+                <div class="Creation">
+                    Rejoignez-nous pour des découvertes culinaires excitantes et une cuisine sans aucun tracas.
+                </div>
+
+                <div class="Creation">
+                    Téléchargez maintenant et transformez chaque repas en une expérience inoubliable ! 🌟👩‍🍳📱
                 </div>
 
             </div>
@@ -147,6 +151,32 @@
             <!-- Contenu de la page d'accueil -->
         </section>
 
+
+        <div class="carousel-container">
+            <div class="carousel" id="myCarousel">
+                <div class="carousel-item active">
+                    <!-- <div class="carousel-control carousel-control-left">&lt;</div> -->
+                    <img src="images/Create.png" alt="Description de l'image 2">
+                    <!-- <div class="carousel-control carousel-control-right">&gt;</div> -->
+                </div>
+                <div class="carousel-item">
+                    <!-- <div class="carousel-control carousel-control-left">&lt;</div> -->
+                    <img src="images/Home1.png" alt="Description de l'image 1">
+                    <!-- <div class="carousel-control carousel-control-right">&gt;</div> -->
+                </div>
+                <div class="carousel-item">
+                    <!-- <div class="carousel-control carousel-control-left">&lt;</div> -->
+                    <img src="images/logo.png" alt="Description de l'image 1">
+                    <!-- <div class="carousel-control carousel-control-right">&gt;</div> -->
+                </div>
+                <!-- Ajoutez d'autres éléments de carousel si nécessaire -->
+            </div>
+        </div>
+
+        <!-- Inclure le fichier JavaScript -->
+        <script src="js/carousel.js"></script>
+        <!-- Remplacez le chemin avec le chemin vers votre fichier JavaScript -->
+
     </main>
 
 
@@ -168,6 +198,10 @@
         </div>
 
     </footer>
+
+
+
+
 
 
 </body>
