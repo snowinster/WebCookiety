@@ -22,25 +22,37 @@
 <body>
 
     <header>
-
         <nav>
 
-            <div class="logo-container"> <img src="images/Vrailogo.png" alt="logo"> </div>
-
-            <ul>
+            <ul class="nav-links">
                 <li><a href="#home">Accueil</a></li>
                 <li><a href="#contexte">Contexte</a></li>
                 <li><a href="#developpement">Développement</a></li>
-                <li><a href="#equipe">A propos de l'équipe</a></li>
-                <li><a href="#contact">Nous Contacter</a></li>
+                <li><a href="#equipe">Equipe</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
-
+            <div class="mobile-menu">
+                <!-- <div class="logo-container">
+                    <img src="images/Vrailogo.png" alt="logo">
+                </div> -->
+            </div>
         </nav>
-
     </header>
 
+    <!-- <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const menuToggle = document.querySelector('.menu-toggle');
+            const navLinks = document.querySelector('.nav-links');
+
+            menuToggle.addEventListener('click', function () {
+                navLinks.classList.toggle('active');
+                console.log('coucou');
+            });
+        });
+    </script> -->
+
     <main>
-        <div id="espacement"></div>
+
         <div class="container">
 
             <div class="text-container">
@@ -119,7 +131,7 @@
 
         </div>
 
-        <div id="espacement"></div>
+        <!-- <div id="espacement"></div> -->
         <section id="contexte">
             <div class="container2">
                 <div class="image-container2">
@@ -193,16 +205,21 @@
 
 
         <section id="developpement">
-            <div class="intro3">
-                <h2>Développement</h2>
-                Afin d'aboutir ce projet, l'équipe a eu recours à différents outils tels que Figma,Visual Studio,
-                Firebase et Flutter.
-                Tout d'abord les membres de l'équipe ont crée des prototypes sur Figma afin de visualiser la solution,
-                en prenant en compte le design d'une application mobile, ergonomique.
-                Ensuite, ils ont commencé à développer en langage dart en utilisant Flutter. (Pages, utilisateur,
-                interaction, etc). Pour éditer le code, ils ont utilisé Visual Studio Code.
-                Ils se sont aidé de Firebase pour pouvoir y stocker la base de données de l'application (données de
-                l'utilisateur, comptes).
+            <div>
+                <div class="intro3">
+                    <h2>Développement</h2>
+                    Afin d'aboutir ce projet, l'équipe a eu recours à différents outils tels que Figma,Visual Studio,
+                    Firebase et Flutter.
+                    Tout d'abord les membres de l'équipe ont crée des prototypes sur Figma afin de visualiser la
+                    solution,
+                    en prenant en compte le design d'une application mobile, ergonomique.
+                    Ensuite, ils ont commencé à développer en langage dart en utilisant Flutter. (Pages, utilisateur,
+                    interaction, etc). Pour éditer le code, ils ont utilisé Visual Studio Code.
+                    Ils se sont aidé de Firebase pour pouvoir y stocker la base de données de l'application (données de
+                    l'utilisateur, comptes).
+                    <div id="espacement"></div>
+                </div>
+
             </div>
             <div>
                 <img class="image2" src="images/outils.png" alt="Description de l'image">

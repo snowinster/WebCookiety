@@ -65,7 +65,7 @@ section {
 
 .divEnPourcentage {
     padding: 15%;
-  }
+}
 
 
 .separator {
@@ -134,7 +134,8 @@ h2 {
     .text-container2 {
         flex: 1;
         align-self: center;
-        padding: 10%;
+        padding: 5%;
+
         /* Utilise 100% de l'espace disponible */
     }
 
@@ -165,7 +166,7 @@ h2 {
     .text-container {
         flex: 1;
         align-self: center;
-        padding: 10%;
+        padding: 5%;
         /* Utilise 100% de l'espace disponible */
     }
 
