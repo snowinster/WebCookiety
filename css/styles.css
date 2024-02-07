@@ -25,7 +25,24 @@ section {
     font-size: 1.5vw;
     max-width: 80%;
     padding-top: 3%;
+    line-height: 1.5;
 }
+
+.intro3 {
+    font-size: 1.5vw;
+    max-width: 100%;
+    padding-top: 3%;
+    line-height: 1.5;
+}
+
+.intro4 {
+    font-size: 1.5vw;
+    font-weight: bold;
+    max-width: 80%;
+    padding-top: 3%;
+    line-height: 1.5;
+}
+
 
 .black-text {
     color: black;
@@ -45,6 +62,11 @@ section {
 #espacement {
     padding: 2%;
 }
+
+.divEnPourcentage {
+    padding: 15%;
+  }
+
 
 .separator {
     border: 1px solid #eeeeee;
